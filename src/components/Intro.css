@@ -1,0 +1,86 @@
+
+
+.intro {
+    background:  hsl(257, 40%, 49%);
+    min-height: 100vh;
+}
+
+section {
+    position: relative;
+}
+
+.formbg {
+    position: relative;
+    z-index: 0;
+    background-color: hsl(257, 40%, 49%);
+    height: 100vh;
+}
+
+.formcont {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.scard
+ {
+     background-color: rgba(255, 255, 255, 0.719);
+     text-align: center;
+}
+
+nav {
+    background-color: rgba(66, 2, 119, 0.562);
+}
+.nav-title {
+    float: left;
+    margin-top: 10px;
+    padding-left: 50px;
+    color: rgb(236, 249, 255);
+    font: 3em sans-serif;
+}
+
+ul{
+    float: right;
+    padding-bottom: 0%;
+}
+
+.nav-lin {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    list-style: none;
+    color: whitesmoke;
+    border: 1px solid white;
+    border-radius: 20px;
+    font: 2em sans-serif;
+}
+
+.setn {
+    border: none;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    list-style: none;
+    color: whitesmoke;
+    font: 2em sans-serif;
+}
+
+ .setn:hover {
+    border: none;
+    list-style: none;
+    list-style: none;
+    color: rgb(7, 7, 146);
+    background-color: white;
+    text-decoration: none;
+}
+
+.nav-lin:hover {
+    list-style: none;
+    color: rgb(42, 42, 43);
+    background-color: white;
+    border: 1px solid rgb(39, 39, 39);
+    transform: scaleY(3px);
+}
